@@ -1,0 +1,24 @@
+{
+  "name": "@moeenshah/react-native-figma-scale",
+  "version": "1.0.0",
+  "description": "A simple scaling utility for pixel-perfect React Native designs based on Figma dimensions.",
+  "main": "index.js",
+  "keywords": [
+    "react-native",
+    "figma",
+    "scaling",
+    "responsive",
+    "pixel-perfect",
+    "ui"
+  ],
+  "author": "Moeen Shah <moeenshah54@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MoeenShah/react-native-figma-scale.git"
+  },
+  "homepage": "https://github.com/MoeenShah/react-native-figma-scale#readme",
+  "bugs": {
+    "url": "https://github.com/MoeenShah/react-native-figma-scale/issues"
+  }
+}
