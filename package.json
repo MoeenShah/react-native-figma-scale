@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "A simple scaling utility for pixel-perfect React Native designs based on Figma dimensions.",
   "main": "index.js",
+  "types": "index.d.ts",
   "keywords": [
     "react-native",
     "figma",
