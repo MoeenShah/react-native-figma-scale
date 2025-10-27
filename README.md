@@ -10,20 +10,22 @@ A simple scaling utility for **pixel-perfect React Native designs** based on you
 npm install @moeenshah/react-native-figma-scale
 # or
 yarn add @moeenshah/react-native-figma-scale
+```
 
 
 ## ⚙️ Setup
 
 Configure it once in your app (usually in App.js):
-
+```tsx
 import { configureScaling } from '@moeenshah/react-native-figma-scale';
 
 configureScaling({ baseWidth: 428, baseHeight: 926 }); // your Figma dimensions
+```
 
 ## 🧩 Usage
 
 Use it anywhere in your project:
-
+```tsx
 import { scale, verticalScale, moderateScale } from '@moeenshah/react-native-figma-scale';
 
 const styles = StyleSheet.create({
@@ -33,7 +35,7 @@ const styles = StyleSheet.create({
     borderRadius: moderateScale(12),
   },
 });
-
+```
 ## 🧠 API
 Function	Description	Example
 scale(size)	Scales horizontally based on screen width	scale(200)
