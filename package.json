@@ -1,6 +1,6 @@
 {
   "name": "@moeenshah/react-native-figma-scale",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A simple scaling utility for pixel-perfect React Native designs based on Figma dimensions.",
   "main": "index.js",
   "types": "index.d.ts",
