@@ -3,5 +3,8 @@ declare module '@moeenshah/react-native-figma-scale' {
   export function verticalScale(size: number): number;
   export function moderateScale(size: number, factor?: number): number;
   export function moderateVerticalScale(size: number, factor?: number): number;
-  export function configureScaling(baseWidth: number, baseHeight: number): void;
+  export function configureScaling(options?: {
+    baseWidth?: number;
+    baseHeight?: number;
+  }): void;
 }
